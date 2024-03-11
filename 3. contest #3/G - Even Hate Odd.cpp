@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -27,15 +26,15 @@ int main()
 
         if (even == odd)
         {
-            cout << 0;
+            cout << 0 << endl;
         }
         else if (size % 2 != 0)
         {
-            cout << "-1";
+            cout << "-1" << endl;
         }
         else
         {
-            cout << abs(even - odd) / 2;
+            cout << abs(even - odd) / 2 << endl;
         }
     }
 }
